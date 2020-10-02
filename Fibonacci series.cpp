@@ -24,10 +24,10 @@ int fib(int n)
     return table[n];
 }
 main()
-{
+{   int n;
     inilize();
     cout<<"Enter number"<<endl;
-    int n;
+    
     cin>>n;
    printf("%d",fib(n));
 }
